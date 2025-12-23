@@ -1,0 +1,168 @@
+{
+  "name": "Retro Hacker",
+  "version": "1.0.0",
+  "author": "Claude",
+  "description": "A retro/hacker aesthetic theme inspired by classic terminal interfaces and 1980s computing culture",
+  "firmware_version": "1.0.4",
+  "colors": {
+    "primary": "#00ff00",
+    "primary_dim": "#00cc00",
+    "primary_dark": "#008800",
+    "background": "#0a0e0a",
+    "surface": "#0d1b0d",
+    "surface_variant": "#1a2b1a",
+    "border": "#00ff00",
+    "text_primary": "#00ff00",
+    "text_secondary": "#00cc00",
+    "text_tertiary": "#006600",
+    "error": "#ff0040",
+    "warning": "#ffaa00",
+    "info": "#00ffff",
+    "success": "#00ff00",
+    "disabled": "#004400",
+    "shadow": "rgba(0, 255, 0, 0.3)"
+  },
+  "typography": {
+    "font_family": "monospace",
+    "font_size_base": 14,
+    "font_size_small": 12,
+    "font_size_large": 18,
+    "font_size_heading": 20,
+    "line_height": 1.4,
+    "letter_spacing": "0.5px"
+  },
+  "spacing": {
+    "unit": 8,
+    "small": 4,
+    "medium": 8,
+    "large": 16,
+    "xlarge": 24
+  },
+  "borders": {
+    "width": 2,
+    "radius": 0,
+    "style": "solid"
+  },
+  "effects": {
+    "text_shadow": "0 0 5px rgba(0, 255, 0, 0.5)",
+    "box_shadow": "0 0 20px rgba(0, 255, 0, 0.3)",
+    "glow": "0 0 10px #00ff00",
+    "scanlines": true,
+    "crt_effect": true
+  },
+  "components": {
+    "header": {
+      "background": "#0d1b0d",
+      "border_bottom": "2px solid #00ff00",
+      "text_color": "#00ff00",
+      "height": 48,
+      "text_transform": "uppercase"
+    },
+    "button": {
+      "primary": {
+        "background": "transparent",
+        "border": "2px solid #00ff00",
+        "text_color": "#00ff00",
+        "hover_background": "#00ff00",
+        "hover_text_color": "#0a0e0a",
+        "padding": "8px 16px",
+        "text_transform": "uppercase"
+      },
+      "danger": {
+        "background": "transparent",
+        "border": "2px solid #ff0040",
+        "text_color": "#ff0040",
+        "hover_background": "#ff0040",
+        "hover_text_color": "#000000"
+      },
+      "disabled": {
+        "background": "transparent",
+        "border": "2px solid #004400",
+        "text_color": "#004400"
+      }
+    },
+    "panel": {
+      "background": "#0d1b0d",
+      "border": "2px solid #00ff00",
+      "padding": 16,
+      "shadow": "0 0 20px rgba(0, 255, 0, 0.3)"
+    },
+    "list_item": {
+      "background": "transparent",
+      "hover_background": "rgba(0, 255, 0, 0.1)",
+      "border_bottom": "1px solid #008800",
+      "padding": "12px 16px"
+    },
+    "input": {
+      "background": "#0a0e0a",
+      "border": "2px solid #008800",
+      "focus_border": "2px solid #00ff00",
+      "text_color": "#00ff00",
+      "placeholder_color": "#006600",
+      "padding": "8px 12px"
+    },
+    "table": {
+      "header_background": "#008800",
+      "header_text_color": "#0a0e0a",
+      "row_background": "transparent",
+      "row_hover_background": "rgba(0, 255, 0, 0.1)",
+      "border_color": "#008800"
+    },
+    "status_indicator": {
+      "online": "#00ff00",
+      "offline": "#ff0040",
+      "warning": "#ffaa00",
+      "scanning": "#00ffff"
+    },
+    "progress_bar": {
+      "background": "#0a0e0a",
+      "fill": "#00ff00",
+      "height": 20,
+      "border": "2px solid #008800",
+      "glow": "0 0 10px #00ff00"
+    },
+    "terminal": {
+      "background": "#0a0e0a",
+      "text_color": "#00ff00",
+      "border": "2px solid #008800",
+      "padding": 16,
+      "prompt": "$ ",
+      "prompt_color": "#00cc00"
+    },
+    "menu": {
+      "background": "#0d1b0d",
+      "border": "2px solid #00ff00",
+      "item_hover": "rgba(0, 255, 0, 0.2)",
+      "separator": "1px solid #008800"
+    },
+    "modal": {
+      "background": "#0d1b0d",
+      "border": "3px solid #00ff00",
+      "overlay": "rgba(0, 0, 0, 0.8)",
+      "shadow": "0 0 30px rgba(0, 255, 0, 0.5)"
+    },
+    "scrollbar": {
+      "track": "#0a0e0a",
+      "thumb": "#008800",
+      "thumb_hover": "#00ff00",
+      "width": 12
+    }
+  },
+  "animations": {
+    "scanline_speed": "8s",
+    "pulse_speed": "2s",
+    "transition_speed": "0.3s",
+    "glitch_enabled": true
+  },
+  "icons": {
+    "style": "outlined",
+    "color": "#00ff00",
+    "size": 24
+  },
+  "layout": {
+    "max_width": 1200,
+    "sidebar_width": 240,
+    "header_height": 48,
+    "footer_height": 32
+  }
+}
