@@ -1,0 +1,379 @@
+{
+  "screen_name": "main_dashboard",
+  "status_bar": "default",
+  "windowed_canvas": false,
+  "cache_canvases": false,
+  "button_map": {
+    "a": "select",
+    "b": "noop",
+    "up": "previous",
+    "down": "next",
+    "left": "previous",
+    "right": "next"
+  },
+  "background": {
+    "layers": [
+      {
+        "image_path": "assets/bio_ground.png",
+        "x": 0,
+        "y": 0
+      }
+    ],
+    "background_color": {
+      "r": 0,
+      "g": 0,
+      "b": 0
+    }
+  },
+  "menu_items": [
+    {
+      "id": "RECON",
+      "x": 5,
+      "y": 30,
+      "target": "recon_dashboard",
+      "layers": [
+        {
+          "image_path": "assets/dashboard/tile_fill.png",
+          "x": 0,
+          "y": 0
+        },
+        {
+          "image_path": "assets/dashboard/tile_edge.png",
+          "x": 0,
+          "y": 0,
+          "recolor_palette": "purple"
+        },
+        {
+          "image_path": "assets/dashboard/recon.png",
+          "x": 60,
+          "y": 22,
+          "recolor_palette": "purple"
+        },
+        {
+          "text": "RECON",
+          "x": 54,
+          "y": 61,
+          "text_size": "small",
+          "text_color_palette": "purple"
+        }
+      ],
+      "selected_layers": [
+        {
+          "image_path": "assets/dashboard/tile_fill.png",
+          "x": 0,
+          "y": 0
+        },
+        {
+          "image_path": "assets/dashboard/tile_edge_selected.png",
+          "x": 0,
+          "y": 0,
+          "recolor_palette": "green"
+        },
+        {
+          "image_path": "assets/dashboard/recon.png",
+          "x": 60,
+          "y": 22,
+          "recolor_palette": "light_green"
+        },
+        {
+          "text": "RECON",
+          "x": 54,
+          "y": 61,
+          "text_size": "small",
+          "text_color_palette": "light_green"
+        }
+      ]
+    },
+    {
+      "id": "PINEAP",
+      "x": 163,
+      "y": 30,
+      "target": "pineap_menu",
+      "layers": [
+        {
+          "image_path": "assets/dashboard/tile_fill.png",
+          "x": 0,
+          "y": 0
+        },
+        {
+          "image_path": "assets/dashboard/tile_edge.png",
+          "x": 0,
+          "y": 0,
+          "recolor_palette": "purple"
+        },
+        {
+          "image_path": "assets/dashboard/pineap.png",
+          "x": 60,
+          "y": 18,
+          "recolor_palette": "purple"
+        },
+        {
+          "text": "PINEAP",
+          "x": 49,
+          "y": 61,
+          "text_size": "small",
+          "text_color_palette": "purple"
+        }
+      ],
+      "selected_layers": [
+        {
+          "image_path": "assets/dashboard/tile_fill.png",
+          "x": 0,
+          "y": 0
+        },
+        {
+          "image_path": "assets/dashboard/tile_edge_selected.png",
+          "x": 0,
+          "y": 0,
+          "recolor_palette": "green"
+        },
+        {
+          "image_path": "assets/dashboard/pineap.png",
+          "x": 60,
+          "y": 18,
+          "recolor_palette": "light_green"
+        },
+        {
+          "text": "PINEAP",
+          "x": 49,
+          "y": 61,
+          "text_size": "small",
+          "text_color_palette": "light_green"
+        }
+      ]
+    },
+    {
+      "id": "PAYLOADS",
+      "x": 321,
+      "y": 30,
+      "target": "payloads_dashboard",
+      "layers": [
+        {
+          "image_path": "assets/dashboard/tile_fill.png",
+          "x": 0,
+          "y": 0
+        },
+        {
+          "image_path": "assets/dashboard/tile_edge.png",
+          "x": 0,
+          "y": 0,
+          "recolor_palette": "purple"
+        },
+        {
+          "image_path": "assets/dashboard/payloads.png",
+          "x": 64,
+          "y": 18,
+          "recolor_palette": "purple"
+        },
+        {
+          "text": "PAYLOADS",
+          "x": 40,
+          "y": 61,
+          "text_size": "small",
+          "text_color_palette": "purple"
+        }
+      ],
+      "selected_layers": [
+        {
+          "image_path": "assets/dashboard/tile_fill.png",
+          "x": 0,
+          "y": 0
+        },
+        {
+          "image_path": "assets/dashboard/tile_edge_selected.png",
+          "x": 0,
+          "y": 0,
+          "recolor_palette": "green"
+        },
+        {
+          "image_path": "assets/dashboard/payloads.png",
+          "x": 64,
+          "y": 18,
+          "recolor_palette": "light_green"
+        },
+        {
+          "text": "PAYLOADS",
+          "x": 40,
+          "y": 61,
+          "text_size": "small",
+          "text_color_palette": "light_green"
+        }
+      ],
+      "variable": "$_PAYLOAD_CATEGORIES"
+    },
+    {
+      "id": "ALERTS",
+      "x": 5,
+      "y": 126,
+      "target": "alerts_dashboard",
+      "layers": [
+        {
+          "image_path": "assets/dashboard/tile_fill.png",
+          "x": 0,
+          "y": 0
+        },
+        {
+          "image_path": "assets/dashboard/tile_edge.png",
+          "x": 0,
+          "y": 0,
+          "recolor_palette": "purple"
+        },
+        {
+          "image_path": "assets/dashboard/alerts.png",
+          "x": 60,
+          "y": 20,
+          "recolor_palette": "purple"
+        },
+        {
+          "text": "ALERTS",
+          "x": 49,
+          "y": 61,
+          "text_size": "small",
+          "text_color_palette": "purple"
+        }
+      ],
+      "selected_layers": [
+        {
+          "image_path": "assets/dashboard/tile_fill.png",
+          "x": 0,
+          "y": 0
+        },
+        {
+          "image_path": "assets/dashboard/tile_edge_selected.png",
+          "x": 0,
+          "y": 0,
+          "recolor_palette": "green"
+        },
+        {
+          "image_path": "assets/dashboard/alerts.png",
+          "x": 60,
+          "y": 20,
+          "recolor_palette": "light_green"
+        },
+        {
+          "text": "ALERTS",
+          "x": 49,
+          "y": 61,
+          "text_size": "small",
+          "text_color_palette": "light_green"
+        }
+      ]
+    },
+    {
+      "id": "SETTINGS",
+      "x": 163,
+      "y": 126,
+      "target": "settings_menu",
+      "layers": [
+        {
+          "image_path": "assets/dashboard/tile_fill.png",
+          "x": 0,
+          "y": 0
+        },
+        {
+          "image_path": "assets/dashboard/tile_edge.png",
+          "x": 0,
+          "y": 0,
+          "recolor_palette": "purple"
+        },
+        {
+          "image_path": "assets/dashboard/settings.png",
+          "x": 60,
+          "y": 18,
+          "recolor_palette": "purple"
+        },
+        {
+          "text": "SETTINGS",
+          "x": 40,
+          "y": 61,
+          "text_size": "small",
+          "text_color_palette": "purple"
+        }
+      ],
+      "selected_layers": [
+        {
+          "image_path": "assets/dashboard/tile_fill.png",
+          "x": 0,
+          "y": 0
+        },
+        {
+          "image_path": "assets/dashboard/tile_edge_selected.png",
+          "x": 0,
+          "y": 0,
+          "recolor_palette": "green"
+        },
+        {
+          "image_path": "assets/dashboard/settings.png",
+          "x": 60,
+          "y": 18,
+          "recolor_palette": "light_green"
+        },
+        {
+          "text": "SETTINGS",
+          "x": 40,
+          "y": 61,
+          "text_size": "small",
+          "text_color_palette": "light_green"
+        }
+      ]
+    },
+    {
+      "id": "pagerportal",
+      "x": 321,
+      "y": 126,
+      "target": "pager_portal_dashboard",
+      "layers": [
+        {
+          "image_path": "assets/dashboard/tile_fill.png",
+          "x": 0,
+          "y": 0
+        },
+        {
+          "image_path": "assets/dashboard/tile_edge.png",
+          "x": 0,
+          "y": 0,
+          "recolor_palette": "purple"
+        },
+        {
+          "image_path": "assets/dashboard/pagerportal_logo.png",
+          "x": 60,
+          "y": 16,
+          "recolor_palette": "purple"
+        },
+        {
+          "text": "PORTAL",
+          "x": 49,
+          "y": 61,
+          "text_size": "small",
+          "text_color_palette": "purple"
+        }
+      ],
+      "selected_layers": [
+        {
+          "image_path": "assets/dashboard/tile_fill.png",
+          "x": 0,
+          "y": 0
+        },
+        {
+          "image_path": "assets/dashboard/tile_edge_selected.png",
+          "x": 0,
+          "y": 0,
+          "recolor_palette": "green"
+        },
+        {
+          "image_path": "assets/dashboard/pagerportal_logo.png",
+          "x": 60,
+          "y": 16,
+          "recolor_palette": "light_green"
+        },
+        {
+          "text": "PORTAL",
+          "x": 49,
+          "y": 61,
+          "text_size": "small",
+          "text_color_palette": "light_green"
+        }
+      ]
+    }
+  ]
+}
