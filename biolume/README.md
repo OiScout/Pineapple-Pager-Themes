@@ -1,5 +1,8 @@
 # Biolume
 
+<img width="453" height="217" alt="Screenshot 2026-08-25 at 5 05 35 PM" src="https://github.com/user-attachments/assets/e4d0d705-7840-4060-902b-bd751b07fcd1" />
+
+
 A bioluminescent theme for the Hak5 WiFi Pineapple Pager.
 
 **Author:** OiScout
